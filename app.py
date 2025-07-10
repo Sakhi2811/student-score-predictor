@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 
 # Load the dataset
-df = pd.read_csv("data/student_data.csv")
+df = pd.read_csv("student_data.csv")
 
 # Train the model
 X = df[['Hours_Studied', 'Previous_Score', 'Attendance']]
