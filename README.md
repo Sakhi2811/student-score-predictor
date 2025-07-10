@@ -9,7 +9,13 @@ This project predicts students' exam scores based on:
 1. Install dependencies: `pip install -r requirements.txt`
 2. Run the model: `python model/score_predictor.py`
 
-### Folder Structure
-- `data/`: Contains student dataset
-- `model/`: Python script for training
-- `notebook/`: Jupyter Notebook for EDA and modeling
+### File Structure
+- `student_data.csv`: Contains student dataset
+- `score_predictor.py`: Python script for training
+- `score_prediction.ipynb`: Jupyter Notebook for EDA and modeling
+
+# 🎓 Student Score Predictor
+
+[![Streamlit App](https://img.shields.io/badge/Live%20App-Streamlit-brightgreen?logo=streamlit)](https://student-score-predictor.streamlit.app)
+
+This app predicts a student's exam score based on hours studied, previous scores, and attendance.
